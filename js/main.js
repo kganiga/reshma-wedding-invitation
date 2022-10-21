@@ -50,9 +50,10 @@ function scrollFunction() {
 $(document).ready(function ($) {
   $(".preloader-wrapper").fadeOut();
   $("body").removeClass("preloader-site");
-  $(document).on("click", function () {
+  $(document).on("click touchstart", function () {
     document.getElementById("my_audio").play();
   });
+  
 });
 
 $(window).on("load", function () {
