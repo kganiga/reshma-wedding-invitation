@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#BC8887" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Save the date - Monday, 07 November 2022">
+    <meta property="og:description" content="Reshma & Althaf are getting married on November 07, 2022">
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta name="twitter:card" content="">
+    <title>You're Invited</title>
+    <!-- Bulma Version 0.8.x-->
+    <link rel="stylesheet" href="css/bulma.min.css" />
+    <link rel="stylesheet" href="css/bulma-tooltip.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
+    <script src="https://kit.fontawesome.com/2828f7885a.js"
+        integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.coundown.js"></script>
+    <link rel="icon" type="image/png" href="image/invite.png" />
+</head>
+<div class="music">
+    <audio src="./resources/audio.mp3" id="my_audio" loop="loop"></audio>
+  </div>
+<div class="sakura-falling"></div>
+<body class="home blog wrapper">   
+    <!-- Begin Preloader -->
+    <div class="preloader-wrapper">
+        <div class="preloader">
+            <img src="image/invite.png" alt="Flower" />
+        </div>
+    </div>
+    <!-- End Preloader-->
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
+        <!-- Begin Hero -->
+        <section class="hero is-large">
+            <!-- Begin Mobile Nav -->
+            <nav class="navbar is-transparent is-hidden-desktop">
+                <!-- Begin Burger Menu -->
+                <div class="navbar-brand is-fixed-top">
+                    <div class="navbar-burger burger" data-target="mobile-nav">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <!-- End Burger Menu -->
+                <div id="mobile-nav" class="navbar-menu">
+                    <div class="navbar-end">
+                        <div class="navbar-item">
+                            <a class="navbar-item" href="#Nikah">
+                                Nikah
+                            </a>
+                        </div>
+                        <div class="navbar-item">
+                            <a class="navbar-item" href="#Walima">
+                                Recepion
+                            </a>
+                        </div>
+
+                        <div class="navbar-item">
+                            <a class="navbar-item" href="#Location">
+                                Location
+                            </a>
+                        </div>
+                        <div class="navbar-item">
+                            <a class="navbar-item" href="#rsvp">
+                                RSVP
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- End Mobile Nav -->
+            <!-- Begin Hero Content-->
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <h1 class="saveDate">SAVE THE DATE</h1>
+                    <h1 class="subtitle">The Wedding Of</h1>
+                    <h2 class="title">Reshma <span>&</span> Althaf</h2>
+                    <h4 class="subtitle tempatwaktu">
+                        Monday, 07 November 2022
+                        </br>
+                        at
+                        </br>
+                        Proddatur
+
+                    </h4>
+                </div>
+                <!-- Start Countdown -->
+
+                <div>
+                    <ul id="hitungmundur">
+                        <li class="box"><span class="days">00</span>
+                            <p class="days_text">Day</p>
+                        </li>
+                        
+                        <li class="box"><span class="hours">00</span>
+                            <p class="hours_text">Hours</p>
+                        </li>
+                       
+                        <li class="box"><span class="minutes">00</span>
+                            <p class="minutes_text">Minutes</p>
+                        </li>
+                        
+                        <li class="box"><span class="seconds">00</span>
+                            <p class="seconds_text">Seconds</p>
+                        </li>
+                    </ul>
+                    <div class="spasi">
+                    </div>
+                    <script type="text/javascript">
+                        var now = new Date();
+                        var day = now.getDate();
+                        var month = now.getMonth() + 1;
+                        var year = now.getFullYear() + 1;
+
+                        var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
+                        var harih = '11/07/2022 00:00:00';
+
+                        $('#hitungmundur').countdown({
+                            date: harih, // TODO Date format: 07/27/2017 17:00:00
+                            offset: +7, // TODO Your Timezone Offset
+                            day: 'Day',
+                            days: 'Days'
+                        }, function () {
+                            alert('Done!');
+                        });
+                    </script>
+                </div>
+                <!-- End Countdown -->
+            </div>
+            <!-- End Hero Content-->
+            <!-- Begin Hero Menu -->
+            <div class="hero-foot ">
+                <div class="hero-foot--wrapper">
+                    <div class="columns">
+                        <div class="column is-12 hero-menu-desktop has-text-centered">
+                            <ul>
+                                <li class="is-active">
+                                    <a href="#home">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#Nikah">Nikah</a>
+                                </li>
+                                <li>
+                                    <a href="#Walima">Walima</a>
+                                </li>
+                                <li>
+                                    <a href="#Location">Location</a>
+                                </li>
+
+                                <li>
+                                    <a href="#rsvp">RSVP</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Hero Menu -->
+        </section>
+        <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content">
+        <!-- Begin regular-section-->
+        <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content"
+            id="regular-section">
+
+            <div data-aos="fade-up" data-aos-easing="linear">
+                <img src="image/bismillah1.png" class="bismillah has-text-centered" alt="Bismillahirrahmaanirrahiim">
+            </div>
+
+            <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
+                Assalamu'alaikum Warahmatullahi Wabarakatuh.
+                <br /> In the name of Allah,the Most Beneficial, the Most Merciful
+                <br /> Please grace the event with your presence on the wedding ceremony of
+            </p>
+
+            <span class="space40px"></span>
+            <span class="space40px"></span>
+            <div data-aos="fade-up" data-aos-easing="linear">
+                <div class="nama-lengkap">
+                    Reshma
+                </div>
+                <div class="ampersand">&</div>
+                <div class="nama-lengkap">
+                    Althaf
+                </div>
+
+            </div>
+            <span class="space40px"></span>
+
+            <!-- <div data-aos="fade-up" data-aos-easing="linear">
+                <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+            </div> -->
+            
+        </section>
+        <!-- End regular-section-->
+
+        <!-- Begin Nikah Section -->
+        <section class="section-dark" id="Nikah">
+            <div class="container">
+
+                <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+                    <h1 class="title has-text-centered section-title">Nikah</h1>
+                </div>
+                <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="column is-4 has-vertically-aligned-content">
+
+                        <p class="is-larger has-text-centered">
+                        <div class="waktu tanggal-hari has-text-centered">Monday</div>
+                        <div class="waktu tanggal-angka has-text-centered">07</div>
+                        <div class="waktu tanggal-bulan has-text-centered">November 2022</div>
+                        </p>
+
+                    </div>
+                    <div class="column is-4 has-vertically-aligned-content">
+
+                        <p class="waktu is-larger has-text-centered">
+                            Time:
+                            <br>
+                            <strong>11.30 AM</strong>
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="space40px"></div>
+            <div class="main-content has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+                <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=N3BkdnI2ZDY4NGpvY3Q4NnI3MnFhbDVxaDEga2hhbGlsYmFzaGEuZ0Bt&tmsrc=khalilbasha.g%40gmail.com"
+                    target="_blank" class="button has-tooltip btn-cta" data-tooltip="Add to Calendar" target="_blank"
+                    data-aos="zoom-in">
+                    <i class="far fa-calendar-plus"></i> &nbsp;&nbsp;Add to calendar
+                </a>
+            </div>
+        </section>
+        <!-- End Waktu Content -->
+
+        <!-- Begin Walima Section -->
+        <section class="section-light" id="Walima">
+            <div class="container">
+
+                <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+                    <h1 class="title has-text-centered section-title">Walima (Reception)</h1>
+                </div>
+                <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="column is-4 has-vertically-aligned-content">
+
+                        <p class="is-larger has-text-centered">
+                        <div class="waktu tanggal-hari has-text-centered">Tuesday</div>
+                        <div class="waktu tanggal-angka has-text-centered">08</div>
+                        <div class="waktu tanggal-bulan has-text-centered">November 2022</div>
+                        </p>
+
+                    </div>
+                    <div class="column is-4 has-vertically-aligned-content">
+
+                        <p class="waktu is-larger has-text-centered">
+                            Time
+                            <br>
+                            <strong>1:00 PM</strong>
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="space40px"></div>
+            <div class="main-content has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+                <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NWlxbnY4ZTFkNnYyb3ZrcTg2a2R0djA4b3Uga2hhbGlsYmFzaGEuZ0Bt&tmsrc=khalilbasha.g%40gmail.com"
+                    target="_blank" class="button has-tooltip btn-cta" data-tooltip="Add to Calendar" target="_blank"
+                    data-aos="zoom-in">
+                    <i class="far fa-calendar-plus"></i> &nbsp;&nbsp;Add to calendar
+                </a>
+            </div>
+        </section>
+        <!-- End Waktu Content -->
+
+        <!-- Begin Location Section -->
+        <section class="section-darker " id="Location">
+            <div class="container ">
+                <div class="column is-12 regular-section " data-aos="fade-up " data-aos-easing="linear ">
+                    <h1 class="title has-text-centered section-title ">Location</h1>
+                    <p class="tempat is-larger has-text-centered ">
+                        <strong>FG Function Hall</strong>
+                        <br> Proddatur,
+                        <br> Kadapa, Andhra Pradesh
+                        <br>
+                    </p>
+                </div>
+                <div class="section-map " data-aos="fade-up " data-aos-easing="linear ">
+                    <iframe
+                        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=FG%20Function%20hall+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed "
+                        width="100% " height="450 " frameborder="0 " style="border:0;
+                            " allowfullscreen=" "></iframe>
+                </div>
+                <div class="space40px "></div>
+                <div class="has-text-centered " data-aos="fade-up " data-aos-easing="linear ">
+                    <a href="https://www.google.com/maps/dir//FG+Function+Hall,+KVR+Colony+Road,+Rice+Godown,+MGR+Nagar,+Auto+Nagar,+Proddatur,+Andhra+Pradesh,+India/@14.7464274,78.5362424,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bb380aa106907f7:0x502c8c7d60079dac!2m2!1d78.5712746!2d14.7465099?hl=en "
+                        class="button btn-cta " target="_blank " data-aos="zoom-in ">
+                        <i class="far fa-directions "></i> &nbsp;&nbsp;View on maps
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- End Location Content -->
+
+        <!-- Begin Tentang Sherly and Daeng -->
+
+        <!-- End Tentang Sherly dan Daeng -->
+
+        <!-- Begin RSVP Content -->
+        <section class="section-light contact " id="rsvp">
+            <div class="container ">
+                <div class="columns is-multiline ">
+                    <div class="column is-12 prolog has-text-centered " data-aos="fade-up " data-aos-easing="linear ">
+                        <p class="h2 subtitle ">
+                            It is an honor and happiness for us to have you on our special day.            
+                        </p>
+                       <p></p>
+                       
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- End RSVP Content -->
+    </div>
+    <!-- End Main Content -->
+    <!-- Begin Footer -->
+    <div class="footer">
+    <p class="footer-heart">
+        © Copyright 2022 - All Rights Reserved.  Made with <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">
+         <img class="emoji" alt="heart" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png"></g-emoji> by <a href="https://khalilganiga.com">Khalil</a>
+      </p>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
+    <script src="js/jquery-sakura.js"></script>
+    <script src="js/main.js"></script>
+    <link href=" https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css " rel=" stylesheet ">
+    <script src=" https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js "></script>
+    <script>
+        AOS.init({
+            easing: " ease-out ",
+            duration: 800,
+        });
+    </script>
+</body>
+
+</html>
+ 
